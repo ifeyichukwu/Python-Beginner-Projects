@@ -31,5 +31,6 @@ def number_guessing_game():
             print("⚠️ Invalid input! Please enter a number.")
 
 # Run the game
+#what is the code below for?
 if __name__ == "__main__":
     number_guessing_game()
