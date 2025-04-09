@@ -1,0 +1,9 @@
+Today - 9/4/25
+I learnt something new. the use of the code below:
+#       if __name__ == "__main__":   
+            number_guessing_game()       #
+
+""" If you're importing this file into another file (like import guessing_game), it will not run the game automatically — it just loads the functions for you to use.
+The code prevents the game from starting if you’re using the file elsewhere, like for testing, combining with another project, or importing functions.
+Try removing that block and placing just number_guessing_game() at the bottom. The game still works when run directly, but now it’ll also run anytime it’s imported into another script — which is not always ideal. """
+

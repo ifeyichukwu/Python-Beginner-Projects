@@ -18,7 +18,7 @@ def number_guessing_game():
             guess = int(input("\nEnter your guess: "))
             attempts += 1
 
-            #check if hte gues is correct
+            #check if the guess is correct
             if guess < secret_number:
                 print("⛔ Too Low! Try again.")
             elif guess > secret_number:
@@ -30,7 +30,5 @@ def number_guessing_game():
         except ValueError:
             print("⚠️ Invalid input! Please enter a number.")
 
-# Run the game
-#what is the code below for?
 if __name__ == "__main__":
     number_guessing_game()
